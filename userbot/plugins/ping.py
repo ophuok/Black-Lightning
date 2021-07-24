@@ -67,7 +67,7 @@ async def _(event):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(
-        f"__**Pong!__**\n\n `⚘ {ms}`\n⚘ __**Master **__  `{DEFAULTUSER}`"
+        f" 🤖**Pong!**\n\n `❦︎ {ms}`\n❦︎ **Master ** `{DEFAULTUSER}`"
     )
 
 
